@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Tolle"
+  given-names: "Hanna M."
+  orcid: "https://orcid.org/0000-0003-1837-8442"
+- family-names: "Farah"
+  given-names: "Juan Carlos"
+  orcid: "https://orcid.org/0000-0002-2477-4196"
+- family-names: "Mallaroni"
+  given-names: "Pablo"
+  orcid: "https://orcid.org/0000-0002-0959-2837"
+- family-names: "Mason"
+  given-names: "Natasha L."
+  orcid: "https://orcid.org/0000-0001-7115-0389"
+- family-names: "Ramaekers"
+  given-names: "Johannes G."
+  orcid: "https://orcid.org/0000-0003-4553-376X"
+- family-names: "Amico"
+  given-names: "Enrico"
+  orcid: "https://orcid.org/0000-0001-6705-9689"
+title: "Psilocybin Pharmacological Fingerprinting: Data Analysis"
+version: 1.0.0
+date-released: 2023-11-06
+url: "https://github.com/eamico/Psilocybin_fingerprints"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Tolle"
+    given-names: "Hanna M."
+    orcid: "https://orcid.org/0000-0003-1837-8442"
+  - family-names: "Farah"
+    given-names: "Juan Carlos"
+    orcid: "https://orcid.org/0000-0002-2477-4196"
+  - family-names: "Mallaroni"
+    given-names: "Pablo"
+    orcid: "https://orcid.org/0000-0002-0959-2837"
+  - family-names: "Mason"
+    given-names: "Natasha L."
+    orcid: "https://orcid.org/0000-0001-7115-0389"
+  - family-names: "Ramaekers"
+    given-names: "Johannes G."
+    orcid: "https://orcid.org/0000-0003-4553-376X"
+  - family-names: "Amico"
+    given-names: "Enrico"
+    orcid: "https://orcid.org/0000-0001-6705-9689"
+  doi: "10.1162/netn_a_00349"
+  journal: "Network Neuroscience"
+  start: 1
+  end: 54
+  title: "The Unique Neural Signature of Your Trip: Functional Connectome Fingerprints of Subjective Psilocybin Experience"
+  publisher: "MIT Press"
+  location:
+    name: "Cambridge MA, United States"
+  year: 2023
+  month: 11

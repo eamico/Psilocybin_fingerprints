@@ -1,0 +1,78 @@
+%% add paths
+
+% add paths
+cd(paths.main)
+addpath(genpath('functions'))
+addpath(genpath('scripts'))
+addpath(genpath('data'))
+
+% externals
+cd(paths.externals)
+addpath(genpath('bluewhitered'))
+addpath(genpath('ICC'))
+addpath(genpath('resampling_statistical_toolkit'))
+addpath(genpath('notBoxPlot-master'))
+
+cd(paths.main)
+
+%% load functional connectomes (FCs) 
+% The provided FCs are from 10 healthy subjects of the Human Connectome
+% Project (HCP). The data used in our study is available on request.
+
+% load test and retest FCs
+load("FC1_hcp.mat")
+load("FC2_hcp.mat")
+
+% load scrubbing parameter
+% (number of fMRI volumes with high head motion as identified during preprocessing)
+load("scrubbing.mat")
+
+%% configurations
+
+% parcellation and subnetwork ordering
+config.parcellation = 'Schaefer200';                                % parcellation
+config.numRois = 200;                                               % number of brain regions
+config.numEdges = config.numRois*(config.numRois-1)/2;              % number of unique edges
+config.numSubs = size(FC1, 3);                                      % number of subjects
+config.psilo = [~true(int16(config.numSubs/2), 1); 
+                 true(config.numSubs-int16(config.numSubs/2), 1)];  % treatment conditions
+config.scrubbing = scrubbing(1:config.numSubs); 
+clear scrubbing
+
+%% resting-state network (RSN) parameters
+
+% load assignments of brain regions to RSNs
+orderings = load(fullfile(paths.data, 'yeo_RS7_Schaefer200S.mat'));
+yeo.subnetworks = orderings.yeoROIs; 
+yeo.names = {'Vis','SM','DA','VA','LIM','FPN','DMN'}; 
+clear orderings
+
+% some RSN parameters to facilitate plotting
+yeo.nb = length(yeo.names); % number of RSNs 
+yeo.subnetworks = yeo.subnetworks(yeo.subnetworks<=yeo.nb);
+[~, yeo.order] = sort(yeo.subnetworks, 'ascend'); 
+
+yeo.starts = zeros(yeo.nb,1); 
+yeo.ends = zeros(yeo.nb,1);
+yeo.sizes = zeros(yeo.nb,1);
+start = 1;
+for rsn = 1:length(yeo.names)
+    % define start position of this rsn
+    yeo.starts(rsn,1) = start;
+    % get size of rsn
+    yeo.sizes(rsn, 1) = sum(yeo.subnetworks==rsn);
+    % update start position for next rsn
+    start = start + yeo.sizes(rsn, 1);
+    % get end position of this rsn (one before the start of next rsn)
+    yeo.ends(rsn, 1) = start-1;
+end
+yeo.mids = (yeo.ends+yeo.starts)/2;
+[~, yeo.sizeorder] = sort(yeo.sizes, 'ascend');
+clear rsn start
+
+
+
+
+
+
+

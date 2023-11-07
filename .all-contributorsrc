@@ -30,6 +30,18 @@
         "ideas",
         "research"
       ]
+    },
+    {
+      "login": "eamico",
+      "name": "Enrico Amico",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6409808?v=4",
+      "profile": "https://miplab.epfl.ch/index.php/people/eamico",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "research"
+      ]
     }
   ],
   "contributorsPerLine": 7,

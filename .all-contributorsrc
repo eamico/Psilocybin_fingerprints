@@ -1,0 +1,29 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "hannatolle",
+      "name": "hannatolle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88772546?v=4",
+      "profile": "https://github.com/hannatolle",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "research"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Psilocybin_fingerprints",
+  "projectOwner": "eamico"
+}

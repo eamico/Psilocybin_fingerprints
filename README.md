@@ -1,6 +1,6 @@
 # Psilocybin Pharmacological Fingerprinting
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Sample code to replicate analyses and figures of the paper "*The Unique Neural Signature of Your Trip: Functional Connectome Fingerprints of Subjective Psilocybin Experience*" by Tolle et al., Network Neuroscience 2023. <https://direct.mit.edu/netn/article/doi/10.1162/netn_a_00349/117963/The-Unique-Neural-Signature-of-Your-Trip>
@@ -58,6 +58,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hannatolle"><img src="https://avatars.githubusercontent.com/u/88772546?v=4?s=100" width="100px;" alt="hannatolle"/><br /><sub><b>hannatolle</b></sub></a><br /><a href="https://github.com/eamico/Psilocybin_fingerprints/commits?author=hannatolle" title="Code">💻</a> <a href="https://github.com/eamico/Psilocybin_fingerprints/commits?author=hannatolle" title="Documentation">📖</a> <a href="#ideas-hannatolle" title="Ideas, Planning, & Feedback">🤔</a> <a href="#research-hannatolle" title="Research">🔬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://juancarlosfarah.com"><img src="https://avatars.githubusercontent.com/u/1707188?v=4?s=100" width="100px;" alt="Juan Carlos Farah"/><br /><sub><b>Juan Carlos Farah</b></sub></a><br /><a href="https://github.com/eamico/Psilocybin_fingerprints/commits?author=juancarlosfarah" title="Code">💻</a> <a href="https://github.com/eamico/Psilocybin_fingerprints/commits?author=juancarlosfarah" title="Documentation">📖</a> <a href="#ideas-juancarlosfarah" title="Ideas, Planning, & Feedback">🤔</a> <a href="#research-juancarlosfarah" title="Research">🔬</a></td>
     </tr>
   </tbody>
 </table>

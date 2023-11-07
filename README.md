@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Sample code to replicate analyses and figures of the paper "*The Unique Neural Signature of Your Trip: Functional Connectome Fingerprints of Subjective Psilocybin Experience*" by Tolle et al., Network Neuroscience 2023. <https://direct.mit.edu/netn/article/doi/10.1162/netn_a_00349/117963/The-Unique-Neural-Signature-of-Your-Trip>
+Sample code to replicate analyses and figures of the paper "*The Unique Neural Signature of Your Trip: Functional Connectome Fingerprints of Subjective Psilocybin Experience*" by Tolle et al., Network Neuroscience 2023. [https://doi.org/10.1162/netn_a_00349](https://doi.org/10.1162/netn_a_00349)
 
 ## Citing
 

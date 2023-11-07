@@ -47,9 +47,10 @@ Running this code requires the following MATLAB packages, which must be download
 
 The code was written in MATLAB R2023b.
 
-## Contributors to this Repository
+## Contributors ✨
 
-- Enrico Amico
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -65,5 +66,3 @@ The code was written in MATLAB R2023b.
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-- Juan Carlos Farah
-- Hanna Tolle

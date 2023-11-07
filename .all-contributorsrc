@@ -18,6 +18,18 @@
         "ideas",
         "research"
       ]
+    },
+    {
+      "login": "juancarlosfarah",
+      "name": "Juan Carlos Farah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1707188?v=4",
+      "profile": "https://juancarlosfarah.com",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "research"
+      ]
     }
   ],
   "contributorsPerLine": 7,

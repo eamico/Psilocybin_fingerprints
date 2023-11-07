@@ -1,4 +1,7 @@
 # Psilocybin Pharmacological Fingerprinting
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Sample code to replicate analyses and figures of the paper "*The Unique Neural Signature of Your Trip: Functional Connectome Fingerprints of Subjective Psilocybin Experience*" by Tolle et al., Network Neuroscience 2023. <https://direct.mit.edu/netn/article/doi/10.1162/netn_a_00349/117963/The-Unique-Neural-Signature-of-Your-Trip>
 
@@ -47,5 +50,20 @@ The code was written in MATLAB R2023b.
 ## Contributors to this Repository
 
 - Enrico Amico
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/hannatolle"><img src="https://avatars.githubusercontent.com/u/88772546?v=4?s=100" width="100px;" alt="hannatolle"/><br /><sub><b>hannatolle</b></sub></a><br /><a href="https://github.com/eamico/Psilocybin_fingerprints/commits?author=hannatolle" title="Code">💻</a> <a href="https://github.com/eamico/Psilocybin_fingerprints/commits?author=hannatolle" title="Documentation">📖</a> <a href="#ideas-hannatolle" title="Ideas, Planning, & Feedback">🤔</a> <a href="#research-hannatolle" title="Research">🔬</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 - Juan Carlos Farah
 - Hanna Tolle

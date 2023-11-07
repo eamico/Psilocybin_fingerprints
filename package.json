@@ -1,0 +1,12 @@
+{
+  "name": "psilocybin-fingerprints",
+  "version": "1.0.0",
+  "description": "Sample code to replicate analyses and figures of the paper \"The Unique Neural Signature of Your Trip: Functional Connectome Fingerprints of Subjective Psilocybin Experience\" by Tolle et al., Network Neuroscience 2023.",
+  "repository": "git@github.com:eamico/Psilocybin_fingerprints.git",
+  "author": "Hanna M. Tolle",
+  "contributors": [
+     "Juan Carlos Farah",
+     "Enrico Amico"
+  ],
+  "license": "MIT"
+}
